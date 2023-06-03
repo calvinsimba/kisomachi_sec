@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>contact us</title>
+
+<style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 27px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #6e6c84;
+}
+
+.active {
+  background-color: #3807e8;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.button {
+  background-color: rgb(0, 145, 255); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+textarea::placeholder {
+    color: blue;
+    text-align: justify;
+}
+</style>
+</head>
+<body>
+    <div>
+        <!--navigation bar-->
+
+        <ul>
+            <li><a  href="#index.html">Home</a></li>
+            <li><a href="our_news.html">News</a></li>
+            <li><a href="about_us.html">About us</a></li>
+            <li><a class="active" href="#contact_us.html">Contact us</a></li>
+            <li><a href="staff.html">Our staff</a></li>
+            <li><a  href="result.html">results</a></li>
+          </ul>
+          
+          <div style="padding:30px;margin-top:30px;background-color:rgb(124, 127, 132);height:1500px;opacity: 1;">
+            <i><h2 style="color: aliceblue;">You may contact us via phone number, email or sending direct message to us</h2></i>
+            <h3>Phone Number: +255786347624 or +255628291275</h3>
+            <h3>Email: kisomachisec@yahoo.com</h3>
+            <h2>Send message direct </h2>
+            <textarea rows="4" cols="50" placeholder="Describe yourself here..."></textarea>
+<button placeholder="write your message" class="button" >Send</button>
+        </div>
+
+
+            
+
+    </div>
+</body>
+</html>
